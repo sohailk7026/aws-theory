@@ -1,0 +1,28 @@
+Cloud Computing:
+
+Q1. What is cloud computing?
+Cloud computing refers to the delivery of computing services, including storage, processing power, networking, databases, analytics, and more, over the internet. Users can access these resources on-demand without the need for extensive on-site infrastructure. Cloud Computing is a service which offers us storing and accessing data and programs over the cloud/internet instead of using our own infrastructure.
+
+Q2. Deployment Model in Cloud:
+Public Cloud: Services are provided over the internet, and resources are shared among multiple organizations.
+Private Cloud: Cloud infrastructure is solely dedicated to a single organization.
+Hybrid Cloud: Combination of public and private clouds, allowing data and applications to be shared between them.
+
+Q3. Service Model in Cloud:
+There are three primary service models in cloud computing:
+Infrastructure as a Service (IaaS): Provides virtualized computing resources over the internet.
+Platform as a Service (PaaS): Offers a platform allowing customers to develop, run, and manage applications without dealing with the complexities of infrastructure.
+Software as a Service (SaaS): Delivers software applications over the internet, eliminating the need for users to install, maintain, and run the applications on their devices.
+
+Q4. Architecture of Cloud Computing:
+Cloud computing architecture is divided into two parts front-end and back-end. The front-end includes the user/client interface and client devices and the back-end includes application/servers, storage, databases, and a network. Middleware i.e. internet, connects the front-end and back-end, enabling communication and data processing.
+
+Q5. AWS Global Infrastructure Count:
+AWS has multiple Availability Zones in 32 geographic regions around the world and 102 availability zones.(This can Change)
+
+Q6. Why do we use a region?
+Regions allow users to select a specific geographical location for hosting their resources. This enables better performance, low latency and more scalability and reliability. Each region has multiple AZ’s.
+
+Q7. What is a service? & What are resources?
+Service: Service refers to a specific offering, such as computing power(EC2), storage(S3), provided by a cloud provider.
+Resource: Resources are the individual components in a service, such as virtual machines, databases, instances, storage buckets, etc., that users can use within a cloud service.
