@@ -26,3 +26,38 @@ Regions allow users to select a specific geographical location for hosting their
 Q7. What is a service? & What are resources?
 Service: Service refers to a specific offering, such as computing power(EC2), storage(S3), provided by a cloud provider.
 Resource: Resources are the individual components in a service, such as virtual machines, databases, instances, storage buckets, etc., that users can use within a cloud service.
+
+IAM (Identity and Access Management):
+
+Q8. How many resources do we have in IAM?
+IAM (Identity and Access Management) in AWS includes resources like users, groups, roles, policies, and identity providers.
+Q9. Deployment model in IAM:
+IAM is a global service in AWS, meaning changes made in IAM apply globally across all regions.
+Q10. Identities in IAM:
+Identities in IAM include users, groups, and roles.
+Q11. What is an IAM User?
+An IAM User represents a person or service that interacts with AWS services. Users have associated security credentials and permissions.
+Q12. What is the IAM Group?
+IAM Groups are collections of IAM users. Policies can be attached to groups to grant permissions to multiple users simultaneously.
+Q13. What is the IAM Policy?
+IAM Policies define permissions and are attached to users, groups, or roles to grant or deny access to AWS resources. 
+Q14. What is the IAM Role?
+IAM Roles are similar to users but are meant to be assumed by other AWS entities, providing temporary permissions. Roles are attached to services.
+Q15. Where do we attach Identity-Based Policy?
+Identity-Based Policies are attached to IAM users, groups, or roles.
+Q16. Where do we attach Resource-Based Policy?
+Resource-Based Policies are attached to AWS resources like S3 buckets and SQS queues.
+Q17. Can we create a Policy via JSON code?
+Yes, IAM Policies can be created using JSON code, specifying permissions and resources.
+Q18. If one user has been created by default, which permission has been assigned to that user?
+By default, a user has no permissions until policies are attached, defining what actions the user is allowed to perform. Or if the copy policies option is done then only the user has attached permissions or by adding to a group.
+Q19. What is the dominator policy?
+Dominator policy is which dominates the other policy attached to an user, group or role. For eg. if i attach a s3 read-only policy and also attach a administrator access policy then here the admin access is the dominator policy.
+Q20. What is an inline policy?
+Policies that you add directly to a single user, group, or role. Inline policies maintain a strict one-to-one relationship between a policy and an identity. They are deleted when you delete the identity
+Q30. What is ARN? What are the fields in ARN?
+ARN (Amazon Resource Name) is a unique identifier for AWS resources. It has the format: arn:partition:service:region:account-id:resource. Fields include partition, service, region, account ID, and resource. For eg. arn:aws:iam::123456789012:user/johndoe
+Q31. How many types of ARN Partition?
+ARNs have three partitions: aws, aws-cn (China), and aws-us-gov (AWS GovCloud).
+Q32. What are Tags?
+Tags are key-value pairs attached to AWS resources for organizational purposes. They help in resource identification and management.
